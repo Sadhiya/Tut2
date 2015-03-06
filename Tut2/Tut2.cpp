@@ -9,7 +9,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	return 0;
 }
 
-
+Fraction::Fraction(int num1, int num2)
+{
+	numerator = num1;
+	denominator = num2;
+}
 
 int main()
 {
